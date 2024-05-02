@@ -10,6 +10,28 @@ local AffinityMerchant = Merchants.AffinityMerchant
 local Clickable = AffinityMerchant.Clickable
 local AffinityRemote = Clickable.Retum
 
+-- Initialize DevilFruits table
+getgenv().DevilFruits = {
+    DFT1 = {
+        Locks = {
+            Defense = false,
+            Melee = false,
+            Sniper = false,
+            Sword = false
+        },
+        FireCount = 0
+    },
+    DFT2 = {
+        Locks = {
+            Defense = false,
+            Melee = false,
+            Sniper = false,
+            Sword = false
+        },
+        FireCount = 0
+    }
+}
+
 local FruitAliases = {
     DFT1 = "DevilFruit",
     DFT2 = "DevilFruit2"
